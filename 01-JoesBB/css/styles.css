@@ -5,10 +5,11 @@ body h1,h2,h3,h4,h6,ul,li {
 
 header {
     margin: 0 auto;
-    max-width: 1376x;
+    max-width: 1376px;
     height: 500px;
     background-image: url(/01-JoesBB/images/header.jpg);
-    background-color: beige;
+    background-repeat: no-repeat;
+    
 }
 
 header h1 {
