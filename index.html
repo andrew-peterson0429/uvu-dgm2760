@@ -6,14 +6,20 @@
     <title>01 Joe's Bed and Breakfast</title>
     <link href="/01-JoesBB/css/styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
+
     <header>
         <h1 id="company"></h1>
         <h2 id="slogan"></h2>
     </header>
+
+    <br>
+    
     <main>
         <h1 id="pageName"></h1>
         <h2>What I learned</h2>
+        <br>
         <ul id="objectives">
             <li>Build a simple webpage with a header, main and footer</li>
             <li>Find and correctly resize an image to be loaded into the header using CSS</li>
@@ -23,20 +29,25 @@
             <li>Push code to a GitHub repository</li>
             <li>Deploy a webpage using Netlify</li>
         </ul>
-        <h2>
+
+        <br>
+
+        <h3>
             Today is
 
             <script>
                 let thedate = new Date()
                 document.write(thedate.toLocaleDateString())
             </script>
-        </h2>
+        </h3>
 
         <p id="greeting"></p>
     </main>
-    <footer>
+    
+    <footer id="footer">
         <p>Assignment for DGM 2760 by Andrew Peterson</p>
     </footer>
+    
     <script type="text/javascript" src="/01-JoesBB/js/main.js"></script>
 </body>
 </html>
