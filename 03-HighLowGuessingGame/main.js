@@ -46,17 +46,17 @@ function giveAward() {
         case 1:
         case 2:
         case 3:
-            imagePath = 'images/blueRibbon.png'
+            imagePath = '/03-HighLowGuessingGame/images/blueRibbon.png'
             break;
         case 4:
         case 5:
         case 6:
-            imagePath = 'images/redRibbon.png'
+            imagePath = '/03-HighLowGuessingGame/images/redRibbon.png'
             break;
         case 7:
         case 8:
         case 9:
-            imagePath = 'images/yellowRibbon.png'
+            imagePath = '/03-HighLowGuessingGame/images/yellowRibbon.png'
             break;
         case 10:
             break;
