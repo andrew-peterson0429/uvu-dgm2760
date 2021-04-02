@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>04 Fortune Teller</title>
-        <link href="/04-FortuneTeller/styles.css" rel="stylesheet" type="text/css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew Peterson's Personal Portfolio</title>
+    <link rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <h1>Andrew Peterson's</h1>
+      <h3>DGM 2760 Units</h3>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2>Units</h2>
+      <br>
+      <div class="projects-grid">
+        <a href="/01-JoesBB/index.html" target="_blank" class="project-tile">
+          <img class="project-image" src="/images/Personal Technology Interest Page.JPG" />
+          <p class="project-title">
+            Unit 01 Joes Bed and Breakfast
+          </p>
+        </a>
+        <a href="/02-Inspector Clouseau/index.html" target="_blank" class="project-tile">
+          <img class="project-image" src="/images/A and M Travelers Website.JPG" />
+          <p class="project-title">
+            Unit 02 Inspector Clouseau
+          </p>
+        </a>
+        <a href="/03-HighLowGuessingGame/index.html" target="_blank" class="project-tile">
+          <img class="project-image" src="/images/Pepe Bulbasaur.jpg" />
+          <p class="project-title">
+            Unit 03 High Low Guessing Game</p>
+        </a>
+        <a href="/04-FortuneTeller/index.html" target="_blank" class="project-tile">
+          <img class="project-image" src= "/images/Baby Yoda.jpg">
+          <p class="project-title">
+            Unit 04 Fortune Teller</p>
+        </a>
 
-    <body>
-        <header>
-            <h1></h1>
-            <h2></h2>
-        </header>
-
-        <br>
-
-        <main>
-    
-            <h1>Your fortune</h1>
-            <br>
-            <p id="fortune"></p>
-            
-<br>
-            <h2>What I learned</h2>
-            <br>
-            <ul class="objectives">
-                <li>Generate random numbers</li>
-                <li>Use math functions</li>
-                <li>Pass values to and return values from a function</li>
-                <li>Use switch statements</li>
-                <li>Concatenate a string</li>
-            </ul>
-
-            <br>
-
-            
-        </main>
-
-        <footer>
-            <p>Assignment for DGM 2760 by Andrew Peterson</p>
-        </footer>
-
-    </body>
-    <script type="text/javascript" src="/04-FortuneTeller/main.js"></script>
+        <a href="/05-Arborist/index.html" target="_blank" class="project-tile">
+          <img class="project-image" src= "/images/A and M Travel Youtube.JPG">
+          <p class="project-title">
+            Unit 05 The Arborist</p>
+        </a>
+        
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a id="profile-link"
+          href="https://github.com/andrew-peterson0429"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fab fa-github">GitHub</i
+        ></a>
+        <a id="profile-link"
+          href="https://twitter.com/AandMtravellers"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fab fa-twitter">Twitter</i
+        ></a>
+        <a id="profile-link"
+          href="mailto:example@example.com"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fas fa-at">Send an email</i
+        ></a>
+        <a id="profile-link"
+          href="tel:555-867-5309"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fas fa-mobile-alt"> Call Me</i
+        ></a>
+      </div>
+    </section>
+  </body>
 </html>
