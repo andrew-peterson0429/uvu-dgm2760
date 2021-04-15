@@ -11,7 +11,7 @@ header, main, footer {
 }
 
 header {
-    background-image: url(/06-Nonesense_Story/images/header.jpg);
+    background-image: url(/images/header.jpg);
     height: 250px;
 }
 
@@ -52,36 +52,22 @@ main ul.objectives li {
     margin-left: 3%;
 }
 
+textarea {
+    resize: none;
+    width: 200px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
 main button {
     display: block;
-    background-color: #eadadb;
+    background-color: #dbee7a;
     border: solid 1px #837778;
     border-radius: 10px;
     padding: .5em;
     margin: .5em 0;
-    width: 50%;
-}
-
-main article {
-    float: left;
-    width: 40%;
-}
-
-main div#displayResults {
-    background-color: #d5cab5;
-    margin-left: 2%;
-    padding: .2em 4%;
-    line-height: 150%;
-}
-
-main div#displayResults span {
-    color: red;
-}
-
-main div#error {
-    color: orange; 
-    margin-left: 2%; 
-    background-color: yellow;
+    width: 220px;
 }
 
 footer {
