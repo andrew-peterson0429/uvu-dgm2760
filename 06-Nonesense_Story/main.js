@@ -5,15 +5,15 @@ function tellStory() {
 
     const noun = document.querySelector('#nouns');
     
-    const nounArray = noun.value.trim().split(' ');
+    const nounArray = noun.value.toLowerCase().trim().split(' ');
 
     const adjectives = document.querySelector('#adjectives');
 
-    const adjectiveArray = adjectives.value.trim().split(' ');
+    const adjectiveArray = adjectives.value.toLowerCase().trim().split(' ');
 
     const verbs = document.querySelector('#verbs');
 
-    const verbArray = verbs.value.trim().split(' ');
+    const verbArray = verbs.value.toLowerCase().trim().split(' ');
 
     const displayResults = document.querySelector('#story')
 
@@ -28,7 +28,7 @@ console.log(nounArray);
     displayResults.innerHTML = myStory;
 
     // document.querySelector('#story').onclick = myStory;
-    story.classList.add('lowercase');
+    // story.classList.add('lowercase');
     
 
    
