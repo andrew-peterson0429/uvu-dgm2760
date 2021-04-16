@@ -37,6 +37,7 @@ main h1 {
 main h2 {
     color: #4f7738;
     padding: .6rem 0 0 2%;
+    margin-top: 0px;
 }
 
 main p {
@@ -63,8 +64,9 @@ main button {
 }
 
 main article {
-    float: left;
     width: 40%;
+    
+    margin-bottom: 70px;
 }
 
 main div#displayResults {
@@ -97,4 +99,14 @@ footer p {
 
 .lowercase {
     text-transform: lowercase;
+}
+
+.left{
+    float: left;
+    height: 100%;
+}
+
+.right{
+    float: right;
+    width: 50%;
 }
