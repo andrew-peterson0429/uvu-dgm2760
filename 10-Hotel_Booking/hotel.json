@@ -1,0 +1,30 @@
+
+{
+    "hotels": [
+        {
+        "name": "Marriott",
+        "rooms": "50",
+        "gym": "Yes",
+        "roomTypes": ["King", "Queen", "Double"],
+        "address": "258 Broad Street",
+        "picture": "room1.jpg"
+        },
+        {
+        "name": "Sheraton",
+        "rooms": "30",
+        "gym": "No",
+        "roomTypes": ["Queen", "Full", "Twin"],
+        "address": "300 UVU Lane",
+        "picture": "room2.jpg"
+        },
+        {
+        "name": "Hilton",
+        "rooms": "40",
+        "gym": "Yes",
+        "roomTypes": ["King", "Double", "Twin"],
+        "address": "610 West 9th Avenue",
+        "picture": "room3.jpg"
+        }
+
+    ]
+}

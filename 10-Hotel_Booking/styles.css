@@ -1,0 +1,89 @@
+body h1, h2, h3, h4, h5, h6, ul, li {margin: 0;}
+
+body {
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(/10-Hotel_Booking/images/header.jpg);
+    height: 250px;
+}
+
+header h1 {
+    color: #fff;
+    padding: 1rem 0 0 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 3rem;
+}
+
+header h2 {
+    color: #fff;
+    padding: .5rem 0 0 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 2rem;
+}
+
+main h1 {
+    color: #5d5c86;
+    padding: 1rem 0 0 2%;
+}
+
+main h2 {
+    color: #5d5c86;
+    padding: .6rem 0 0 2%;
+}
+
+main p {
+    padding: .2rem 0 0 2%;
+}
+
+main ul {
+    margin: 0;
+}
+
+main ul.objectives li {
+    list-style-image: url(/10-Hotel_Booking/images/check.png);
+    margin-left: 3%;
+}
+
+.hotels li {
+    display: flex;
+    align-items: center;
+    border: #000;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #3984c7;
+}
+
+.hotels li a {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #3984c7;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    padding: .5rem 0;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
